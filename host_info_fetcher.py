@@ -220,13 +220,27 @@ class Transparent_Window(QWidget):
                     
         return netcard_info
 
-            
+        
+def process_exists(proc_name):
+    num_of_exist = 0
+    
+    for proc in psutil.process_iter():
+        if proc.name() == proc_name:
+            num_of_exist += 1    
+    
+    if num_of_exist == 2:
+        return True
+    else:
+        return False
+    
 
 if __name__ == "__main__":
+    # Exit while process already started
+    if process_exists("host_info_fetcher.exe") == True:
+        sys.exit(1)
     
     app = QApplication(sys.argv)
 
     transparent_window = Transparent_Window()  # will execute show()
-    # transparent_window.showFullScreen()
     exit_val = app.exec_()  # Execute app
     sys.exit(exit_val)
