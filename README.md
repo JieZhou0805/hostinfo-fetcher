@@ -3,7 +3,7 @@ An utility for fetching some infomation about your host and the lan network.
 
 Only support **windows**.
 
-# Depencies
+# Install dependencies
 ```
 pip install PyQt5 psutil pyinstaller
 ```
