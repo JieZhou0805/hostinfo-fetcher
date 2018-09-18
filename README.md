@@ -14,7 +14,7 @@ git clone https://github.com/ncu-electronic/host_info_fetcher
 cd host_info_fetcher
 pyinstaller -w -i icon.ico host_info_fetcher.py
 ```
-You can run the generated binary `host_info_fetcher.exe` to start.
+You can run the generated binary `host_info_fetcher.exe` in the dist directory to start.
 
 # Screenshots
 ![screenshot_0](https://raw.githubusercontent.com/ncu-electronic/host_info_fetcher/master/screenshots/Snipaste_2018-09-15_17-13-58.png)
