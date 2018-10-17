@@ -17,7 +17,7 @@ pyinstaller -w -i icon.ico host_info_fetcher.py
 You can run the generated binary `host_info_fetcher.exe` in the dist directory to start.
 
 # Changelog
-2018.10.17
+**2018.10.17**
 - Add an option in systray menu to hide itself for five minutes.
 - Update font size to 11pt.
 
