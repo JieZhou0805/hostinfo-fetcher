@@ -34,7 +34,7 @@ class Ui_Form(object):
         self.label_Drag = QtWidgets.QLabel(Form)
         font = QtGui.QFont()
         font.setFamily("Arial")
-        font.setPointSize(9)
+        font.setPointSize(11)
         self.label_Drag.setFont(font)
         self.label_Drag.setMouseTracking(True)
         self.label_Drag.setAlignment(QtCore.Qt.AlignCenter)
@@ -54,18 +54,12 @@ class Ui_Form(object):
         self.formLayout.setSpacing(2)
         self.formLayout.setObjectName("formLayout")
         self.label_ComputerName = QtWidgets.QLabel(Form)
-        font = QtGui.QFont()
-        font.setFamily("Arial")
-        font.setPointSize(9)
         self.label_ComputerName.setFont(font)
         self.label_ComputerName.setMouseTracking(True)
         self.label_ComputerName.setObjectName("label_ComputerName")
         self.formLayout.setWidget(0, QtWidgets.QFormLayout.LabelRole,
                                   self.label_ComputerName)
         self.label_ComputerName_2 = QtWidgets.QLabel(Form)
-        font = QtGui.QFont()
-        font.setFamily("Arial")
-        font.setPointSize(9)
         self.label_ComputerName_2.setFont(font)
         self.label_ComputerName_2.setMouseTracking(True)
         self.label_ComputerName_2.setText("")
@@ -76,18 +70,12 @@ class Ui_Form(object):
         self.formLayout.setWidget(0, QtWidgets.QFormLayout.FieldRole,
                                   self.label_ComputerName_2)
         self.label_CurrentUser = QtWidgets.QLabel(Form)
-        font = QtGui.QFont()
-        font.setFamily("Arial")
-        font.setPointSize(9)
         self.label_CurrentUser.setFont(font)
         self.label_CurrentUser.setMouseTracking(True)
         self.label_CurrentUser.setObjectName("label_CurrentUser")
         self.formLayout.setWidget(1, QtWidgets.QFormLayout.LabelRole,
                                   self.label_CurrentUser)
         self.label_CurrentUser_2 = QtWidgets.QLabel(Form)
-        font = QtGui.QFont()
-        font.setFamily("Arial")
-        font.setPointSize(9)
         self.label_CurrentUser_2.setFont(font)
         self.label_CurrentUser_2.setMouseTracking(True)
         self.label_CurrentUser_2.setText("")
@@ -98,18 +86,12 @@ class Ui_Form(object):
         self.formLayout.setWidget(1, QtWidgets.QFormLayout.FieldRole,
                                   self.label_CurrentUser_2)
         self.label_CurrentUser_3 = QtWidgets.QLabel(Form)
-        font = QtGui.QFont()
-        font.setFamily("Arial")
-        font.setPointSize(9)
         self.label_CurrentUser_3.setFont(font)
         self.label_CurrentUser_3.setMouseTracking(True)
         self.label_CurrentUser_3.setObjectName("label_CurrentUser_3")
         self.formLayout.setWidget(2, QtWidgets.QFormLayout.LabelRole,
                                   self.label_CurrentUser_3)
         self.label_CurrentUser_6 = QtWidgets.QLabel(Form)
-        font = QtGui.QFont()
-        font.setFamily("Arial")
-        font.setPointSize(9)
         self.label_CurrentUser_6.setFont(font)
         self.label_CurrentUser_6.setMouseTracking(True)
         self.label_CurrentUser_6.setText("")
@@ -117,18 +99,12 @@ class Ui_Form(object):
         self.formLayout.setWidget(2, QtWidgets.QFormLayout.FieldRole,
                                   self.label_CurrentUser_6)
         self.label_CurrentUser_5 = QtWidgets.QLabel(Form)
-        font = QtGui.QFont()
-        font.setFamily("Arial")
-        font.setPointSize(9)
         self.label_CurrentUser_5.setFont(font)
         self.label_CurrentUser_5.setMouseTracking(True)
         self.label_CurrentUser_5.setObjectName("label_CurrentUser_5")
         self.formLayout.setWidget(3, QtWidgets.QFormLayout.LabelRole,
                                   self.label_CurrentUser_5)
         self.label_CurrentUser_7 = QtWidgets.QLabel(Form)
-        font = QtGui.QFont()
-        font.setFamily("Arial")
-        font.setPointSize(9)
         self.label_CurrentUser_7.setFont(font)
         self.label_CurrentUser_7.setMouseTracking(True)
         self.label_CurrentUser_7.setText("")
@@ -136,18 +112,12 @@ class Ui_Form(object):
         self.formLayout.setWidget(3, QtWidgets.QFormLayout.FieldRole,
                                   self.label_CurrentUser_7)
         self.label_CurrentUser_4 = QtWidgets.QLabel(Form)
-        font = QtGui.QFont()
-        font.setFamily("Arial")
-        font.setPointSize(9)
         self.label_CurrentUser_4.setFont(font)
         self.label_CurrentUser_4.setMouseTracking(True)
         self.label_CurrentUser_4.setObjectName("label_CurrentUser_4")
         self.formLayout.setWidget(4, QtWidgets.QFormLayout.LabelRole,
                                   self.label_CurrentUser_4)
         self.label_CurrentUser_8 = QtWidgets.QLabel(Form)
-        font = QtGui.QFont()
-        font.setFamily("Arial")
-        font.setPointSize(9)
         self.label_CurrentUser_8.setFont(font)
         self.label_CurrentUser_8.setMouseTracking(True)
         self.label_CurrentUser_8.setText("")
@@ -170,7 +140,7 @@ class Ui_Form(object):
         self.label_Drag.setText(
             _translate(
                 "Form",
-                "<html><head/><body><p><span style=\" font-size:9pt; color:#ffffff;\">Host Information</span></p></body></html>"
+                "<html><head/><body><p><span style=\" font-size:11pt; color:#ffffff;\">Host Information</span></p></body></html>"
             ))
         self.label_ComputerName.setText(
             _translate("Form",
