@@ -3,11 +3,6 @@ An utility for fetching some infomation about your host and the lan network.
 
 Only support **windows** and works with python3.
 
-# Install dependencies
-```
-pip install PyQt5 psutil pyinstaller
-```
-
 # Build executable binary for using without python interpreter
 ```
 git clone https://github.com/ncu-electronic/host_info_fetcher
